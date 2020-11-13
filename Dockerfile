@@ -10,8 +10,6 @@ RUN wget http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binaries/ap
   mv apache-maven-$MAVEN_VERSION /usr/lib/mvn
 
 RUN ["mkdir","-p","/app"]
-RUN ["chmod","777","/var"]
-RUN ["chmod","777","/var/log"]
 WORKDIR /app
 COPY mvnw ./mvnw
 COPY .mvn ./.mvn
