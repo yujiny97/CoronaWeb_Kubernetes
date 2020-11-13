@@ -6,6 +6,6 @@ codecommit 으로 git과 연동해 build 부터 deploy까지 codepipeline으로 
 app-deployment.yaml 파일에 service를 정의해 deploy를 할 수 있도록 합니다.  
 
 <p align="center"> 
-<img src="./1.png" width="300" height="200">
-<img src="./2.png" width="300" height="200">
+<img src="./1.png" width="500" height="400">
+<img src="./2.png" width="500" height="400">
 </p>
